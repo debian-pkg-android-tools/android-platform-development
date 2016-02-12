@@ -1,0 +1,21 @@
+Source: android-platform-development
+Section: devel
+Priority: optional
+Maintainer: Android tools Maintainer <android-tools-devel@lists.alioth.debian.org>
+Uploaders: Kai-Chung Yan <seamlikok@gmail.com>
+Build-Depends: android-platform-build-headers (>= 1:6) [amd64 i386],
+               debhelper (>=9),
+               dh-exec,
+               libetc1-dev [amd64 i386],
+               libpng-dev [amd64 i386]
+Standards-Version: 3.9.6
+Homepage: https://android.googlesource.com/platform/development
+Vcs-Git: https://anonscm.debian.org/git/android-tools/android-platform-development.git
+Vcs-Browser: https://anonscm.debian.org/cgit/android-tools/android-platform-development.git
+
+Package: etc1tool
+Architecture: amd64 i386
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: ETC1 conversion tool
+ etc1tool is a command line utility that lets you encode PNG images to the ETC1
+ compression standard and decode ETC1 compressed images back to PNG.

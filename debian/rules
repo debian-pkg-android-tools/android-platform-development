@@ -1,0 +1,21 @@
+#!/usr/bin/make -f
+
+include /usr/share/dpkg/pkg-info.mk
+
+UPSTREAM_TAG = android-$(subst +,_,$(DEB_VERSION_UPSTREAM))
+
+%:
+	dh $@
+
+override_dh_auto_build:
+	make -f debian/etc1tool.mk
+
+override_dh_auto_clean:
+	dh_auto_clean
+	make clean -f debian/etc1tool.mk
+
+get-orig-source: $(UPSTREAM_TAG).tar.gz
+	mk-origtargz --repack --compression xz $<
+
+$(UPSTREAM_TAG).tar.gz:
+	wget https://android.googlesource.com/platform/development/+archive/$(UPSTREAM_TAG).tar.gz
