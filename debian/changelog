@@ -1,5 +1,5 @@
 android-platform-development (6.0.1+r16-1) UNRELEASED; urgency=medium
 
-  * Initial release
+  * Initial release (Closes: #814964)
 
- -- Kai-Chung Yan <seamlikok@gmail.com>  Mon, 08 Feb 2016 18:37:18 +0800
+ -- Kai-Chung Yan <seamlikok@gmail.com>  Wed, 17 Feb 2016 16:03:21 +0800
