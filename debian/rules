@@ -9,10 +9,12 @@ UPSTREAM_TAG = android-$(subst +,_,$(DEB_VERSION_UPSTREAM))
 
 override_dh_auto_build:
 	make -f debian/etc1tool.mk
+	pandoc -s -o debian/etc1tool.1 debian/etc1tool.1.md
 
 override_dh_auto_clean:
 	dh_auto_clean
 	make clean -f debian/etc1tool.mk
+	$(RM) debian/*.1
 
 get-orig-source: $(UPSTREAM_TAG).tar.gz
 	mk-origtargz --repack --compression xz $<
