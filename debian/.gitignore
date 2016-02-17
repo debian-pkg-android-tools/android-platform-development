@@ -1,7 +1,6 @@
 *.debhelper
 *.log
 *.substvars
-*.symbols
 debhelper-build-stamp
 etc1tool/
 files

@@ -3,10 +3,10 @@ Section: devel
 Priority: optional
 Maintainer: Android tools Maintainer <android-tools-devel@lists.alioth.debian.org>
 Uploaders: Kai-Chung Yan <seamlikok@gmail.com>
-Build-Depends: android-platform-build-headers (>= 1:6) [amd64 i386],
+Build-Depends: android-libetc1-dev [amd64 i386],
+               android-platform-build-headers (>= 1:6) [amd64 i386],
                debhelper (>=9),
                dh-exec,
-               libetc1-dev [amd64 i386],
                libpng-dev [amd64 i386]
 Standards-Version: 3.9.6
 Homepage: https://android.googlesource.com/platform/development
