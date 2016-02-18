@@ -18,5 +18,8 @@ Package: etc1tool
 Architecture: amd64 i386
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: ETC1 conversion tool
- etc1tool is a command line utility that lets you encode PNG images to the ETC1
- compression standard and decode ETC1 compressed images back to PNG.
+ etc1tool is a command line utility that lets you encode PNG images to
+ the ETC1 compression standard and decode ETC1 compressed images back
+ to PNG. It is part of the Android SDK for working with media files
+ for game apps. The standard for the ETC1 texture format is here:
+ http://www.khronos.org/registry/gles/extensions/OES/OES_compressed_ETC1_RGB8_texture.txt
