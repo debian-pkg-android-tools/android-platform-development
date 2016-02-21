@@ -1,3 +1,9 @@
+android-platform-development (6.0.1+r16-2) UNRELEASED; urgency=medium
+
+  * d/copyright: Improvements
+
+ -- Kai-Chung Yan <seamlikok@gmail.com>  Sun, 21 Feb 2016 17:42:19 +0800
+
 android-platform-development (6.0.1+r16-1) unstable; urgency=medium
 
   * Initial release (Closes: #814964)
