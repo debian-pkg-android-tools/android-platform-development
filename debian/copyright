@@ -70,7 +70,208 @@ Files: ndk/platforms/android-12/include/*
        ndk/platforms/android-21/include/mntent.h
        ndk/platforms/android-21/include/net/ethernet.h
        ndk/platforms/android-21/include/net/if.h
+       ndk/platforms/android-21/include/netinet/ether.h
+       ndk/platforms/android-21/include/netinet/if_ether.h
+       ndk/platforms/android-21/include/netinet/in.h
+       ndk/platforms/android-21/include/netinet/in6.h
+       ndk/platforms/android-21/include/netinet/tcp.h
+       ndk/platforms/android-21/include/netinet/udp.h
+       ndk/platforms/android-21/include/pathconf.h
+       ndk/platforms/android-21/include/poll.h
+       ndk/platforms/android-21/include/pthread.h
+       ndk/platforms/android-21/include/resolv.h
+       ndk/platforms/android-21/include/sched.h
+       ndk/platforms/android-21/include/semaphore.h
+       ndk/platforms/android-21/include/signal.h
+       ndk/platforms/android-21/include/stdint.h
+       ndk/platforms/android-21/include/stdlib.h
+       ndk/platforms/android-21/include/string.h
+       ndk/platforms/android-21/include/sys/auxv.h
+       ndk/platforms/android-21/include/sys/cachectl.h
+       ndk/platforms/android-21/include/sys/capability.h
+       ndk/platforms/android-21/include/sys/epoll.h
+       ndk/platforms/android-21/include/sys/eventfd.h
+       ndk/platforms/android-21/include/sys/file.h
+       ndk/platforms/android-21/include/sys/fsuid.h
+       ndk/platforms/android-21/include/sys/inotify.h
+       ndk/platforms/android-21/include/sys/ioctl.h
+       ndk/platforms/android-21/include/sys/ipc.h
+       ndk/platforms/android-21/include/sys/klog.h
+       ndk/platforms/android-21/include/sys/mman.h
+       ndk/platforms/android-21/include/sys/mount.h
+       ndk/platforms/android-21/include/sys/msg.h
+       ndk/platforms/android-21/include/sys/param.h
+       ndk/platforms/android-21/include/sys/personality.h
+       ndk/platforms/android-21/include/sys/prctl.h
+       ndk/platforms/android-21/include/sys/ptrace.h
+       ndk/platforms/android-21/include/sys/reboot.h
+       ndk/platforms/android-21/include/sys/reg.h
+       ndk/platforms/android-21/include/sys/resource.h
+       ndk/platforms/android-21/include/sys/select.h
+       ndk/platforms/android-21/include/sys/sem.h
+       ndk/platforms/android-21/include/sys/sendfile.h
+       ndk/platforms/android-21/include/sys/shm.h
+       ndk/platforms/android-21/include/sys/signalfd.h
+       ndk/platforms/android-21/include/sys/socket.h
+       ndk/platforms/android-21/include/sys/socketcalls.h
+       ndk/platforms/android-21/include/sys/stat.h
+       ndk/platforms/android-21/include/sys/swap.h
+       ndk/platforms/android-21/include/sys/syscall.h
+       ndk/platforms/android-21/include/sys/sysconf.h
+       ndk/platforms/android-21/include/sys/sysinfo.h
+       ndk/platforms/android-21/include/sys/sysmacros.h
+       ndk/platforms/android-21/include/sys/system_properties.h
+       ndk/platforms/android-21/include/sys/time.h
+       ndk/platforms/android-21/include/sys/timerfd.h
+       ndk/platforms/android-21/include/sys/times.h
+       ndk/platforms/android-21/include/sys/timex.h
+       ndk/platforms/android-21/include/sys/types.h
+       ndk/platforms/android-21/include/sys/ucontext.h
+       ndk/platforms/android-21/include/sys/uio.h
+       ndk/platforms/android-21/include/sys/un.h
+       ndk/platforms/android-21/include/sys/user.h
+       ndk/platforms/android-21/include/sys/utime.h
+       ndk/platforms/android-21/include/sys/utsname.h
+       ndk/platforms/android-21/include/sys/vfs.h
+       ndk/platforms/android-21/include/sys/vt.h
+       ndk/platforms/android-21/include/sys/wait.h
+       ndk/platforms/android-21/include/sys/xattr.h
+       ndk/platforms/android-21/include/syslog.h
+       ndk/platforms/android-21/include/termio.h
+       ndk/platforms/android-21/include/termios.h
+       ndk/platforms/android-21/include/time.h
+       ndk/platforms/android-21/include/uchar.h
+       ndk/platforms/android-21/include/ucontext.h
+       ndk/platforms/android-21/include/unistd.h
+       ndk/platforms/android-21/include/utime.h
+       ndk/platforms/android-21/include/utmp.h
+       ndk/platforms/android-21/include/wchar.h
+       ndk/platforms/android-21/include/wctype.h
+       ndk/platforms/android-21/include/xlocale.h
+       ndk/platforms/android-3/arch-arm/include/machine/cpu-features.h
+       ndk/platforms/android-3/arch-arm/include/machine/endian.h
+       ndk/platforms/android-3/arch-arm/include/machine/kernel.h
+       ndk/platforms/android-3/arch-arm/include/machine/setjmp.h
        ndk/platforms/android-3/arch-arm/src/*
+       ndk/platforms/android-3/header-patches/include/machine/endian.h
+       ndk/platforms/android-3/header-patches/include/machine/setjmp.h
+       ndk/platforms/android-3/header-patches/include/sys/*
+       ndk/platforms/android-3/include/alloca.h
+       ndk/platforms/android-3/include/arpa/inet.h
+       ndk/platforms/android-3/include/arpa/nameser.h
+       ndk/platforms/android-3/include/byteswap.h
+       ndk/platforms/android-3/include/dirent.h
+       ndk/platforms/android-3/include/dlfcn.h
+       ndk/platforms/android-3/include/elf.h
+       ndk/platforms/android-3/include/endian.h
+       ndk/platforms/android-3/include/errno.h
+       ndk/platforms/android-3/include/fcntl.h
+       ndk/platforms/android-3/include/features.h
+       ndk/platforms/android-3/include/fnmatch.h
+       ndk/platforms/android-3/include/libgen.h
+       ndk/platforms/android-3/include/link.h
+       ndk/platforms/android-3/include/locale.h
+       ndk/platforms/android-3/include/mntent.h
+       ndk/platforms/android-3/include/net/ethernet.h
+       ndk/platforms/android-3/include/net/if.h
+       ndk/platforms/android-3/include/netinet/ether.h
+       ndk/platforms/android-3/include/netinet/if_ether.h
+       ndk/platforms/android-3/include/netinet/in.h
+       ndk/platforms/android-3/include/netinet/in6.h
+       ndk/platforms/android-3/include/netinet/tcp.h
+       ndk/platforms/android-3/include/netinet/udp.h
+       ndk/platforms/android-3/include/pathconf.h
+       ndk/platforms/android-3/include/poll.h
+       ndk/platforms/android-3/include/pthread.h
+       ndk/platforms/android-3/include/resolv.h
+       ndk/platforms/android-3/include/sched.h
+       ndk/platforms/android-3/include/semaphore.h
+       ndk/platforms/android-3/include/signal.h
+       ndk/platforms/android-3/include/stdint.h
+       ndk/platforms/android-3/include/stdlib.h
+       ndk/platforms/android-3/include/string.h
+       ndk/platforms/android-3/include/sys/_errdefs.h
+       ndk/platforms/android-3/include/sys/_sigdefs.h
+       ndk/platforms/android-3/include/sys/_system_properties.h
+       ndk/platforms/android-3/include/sys/_wchar_limits.h
+       ndk/platforms/android-3/include/sys/atomics.h
+       ndk/platforms/android-3/include/sys/dirent.h
+       ndk/platforms/android-3/include/sys/epoll.h
+       ndk/platforms/android-3/include/sys/file.h
+       ndk/platforms/android-3/include/sys/fsuid.h
+       ndk/platforms/android-3/include/sys/inotify.h
+       ndk/platforms/android-3/include/sys/ioctl.h
+       ndk/platforms/android-3/include/sys/ipc.h
+       ndk/platforms/android-3/include/sys/klog.h
+       ndk/platforms/android-3/include/sys/mman.h
+       ndk/platforms/android-3/include/sys/mount.h
+       ndk/platforms/android-3/include/sys/param.h
+       ndk/platforms/android-3/include/sys/prctl.h
+       ndk/platforms/android-3/include/sys/ptrace.h
+       ndk/platforms/android-3/include/sys/reboot.h
+       ndk/platforms/android-3/include/sys/resource.h
+       ndk/platforms/android-3/include/sys/select.h
+       ndk/platforms/android-3/include/sys/sendfile.h
+       ndk/platforms/android-3/include/sys/socket.h
+       ndk/platforms/android-3/include/sys/socketcalls.h
+       ndk/platforms/android-3/include/sys/stat.h
+       ndk/platforms/android-3/include/sys/syscall.h
+       ndk/platforms/android-3/include/sys/sysconf.h
+       ndk/platforms/android-3/include/sys/sysinfo.h
+       ndk/platforms/android-3/include/sys/sysmacros.h
+       ndk/platforms/android-3/include/sys/system_properties.h
+       ndk/platforms/android-3/include/sys/time.h
+       ndk/platforms/android-3/include/sys/timeb.h
+       ndk/platforms/android-3/include/sys/times.h
+       ndk/platforms/android-3/include/sys/types.h
+       ndk/platforms/android-3/include/sys/ucontext.h
+       ndk/platforms/android-3/include/sys/uio.h
+       ndk/platforms/android-3/include/sys/un.h
+       ndk/platforms/android-3/include/sys/user.h
+       ndk/platforms/android-3/include/sys/utime.h
+       ndk/platforms/android-3/include/sys/utsname.h
+       ndk/platforms/android-3/include/sys/vfs.h
+       ndk/platforms/android-3/include/sys/vt.h
+       ndk/platforms/android-3/include/sys/wait.h
+       ndk/platforms/android-3/include/syslog.h
+       ndk/platforms/android-3/include/termio.h
+       ndk/platforms/android-3/include/termios.h
+       ndk/platforms/android-3/include/time.h
+       ndk/platforms/android-3/include/ucontext.h
+       ndk/platforms/android-3/include/unistd.h
+       ndk/platforms/android-3/include/utime.h
+       ndk/platforms/android-3/include/utmp.h
+       ndk/platforms/android-3/include/wchar.h
+       ndk/platforms/android-5/include/pthread.h
+       ndk/platforms/android-8/include/dlfcn.h
+       ndk/platforms/android-8/include/pthread.h
+       ndk/platforms/android-8/include/sched.h
+       ndk/platforms/android-8/include/signal.h
+       ndk/platforms/android-8/include/stdlib.h
+       ndk/platforms/android-8/include/time.h
+       ndk/platforms/android-8/include/unistd.h
+       ndk/platforms/android-8/include/wchar.h
+       ndk/platforms/android-9/arch-mips/include/machine/kernel.h
+       ndk/platforms/android-9/arch-mips/include/sys/_sigdefs.h
+       ndk/platforms/android-9/arch-mips/include/sys/socket.h
+       ndk/platforms/android-9/arch-mips/src/atexit.h
+       ndk/platforms/android-9/arch-mips/src/crtbegin_so.c
+       ndk/platforms/android-9/arch-mips/src/crtbegin.c
+       ndk/platforms/android-9/arch-mips/src/crtend_android.S
+       ndk/platforms/android-9/arch-x86/src/atexit.h
+       ndk/platforms/android-9/arch-x86/src/crtbegin_so.c
+       ndk/platforms/android-9/arch-x86/src/crtbegin.c
+       ndk/platforms/android-9/include/pthread.h
+       ndk/platforms/android-9/include/sched.h
+       ndk/platforms/android-9/include/stdlib.h
+       ndk/platforms/android-9/include/sys/_sigdefs.h
+       ndk/platforms/android-9/include/sys/cachectl.h
+       ndk/platforms/android-9/include/sys/eventfd.h
+       ndk/platforms/android-9/include/sys/stat.h
+       ndk/platforms/android-9/include/sys/sysinfo.h
+       ndk/platforms/android-9/include/sys/wait.h
+       ndk/platforms/android-9/include/unistd.h
+       ndk/platforms/android-9/include/wchar.h
 Copyright: 2008-2012, The Android Open Source Project
 License: BSD-2-clause
 
@@ -100,6 +301,10 @@ Files: ndk/platforms/android-21/arch-arm/include/machine/fenv.h
        ndk/platforms/android-21/arch-mips64/include/machine/fenv.h
        ndk/platforms/android-21/arch-x86_64/include/machine/fenv.h
        ndk/platforms/android-21/arch-x86/include/machine/fenv.h
+       ndk/platforms/android-3/arch-arm/include/fenv.h
+       ndk/platforms/android-3/header-patches/include/fenv.h
+       ndk/platforms/android-9/arch-mips/include/fenv.h
+       ndk/platforms/android-9/arch-x86/include/fenv.h
 Copyright: 2004-2005, David Schultz <das@FreeBSD.ORG>
 License: BSD-2-clause
 
@@ -140,6 +345,11 @@ Files: ndk/platforms/android-21/arch-mips/include/machine/asm.h
        ndk/platforms/android-21/arch-mips64/include/machine/endian.h
        ndk/platforms/android-21/arch-mips64/include/machine/exec.h
        ndk/platforms/android-21/arch-mips64/include/machine/regnum.h
+       ndk/platforms/android-9/arch-mips/include/machine/asm.h
+       ndk/platforms/android-9/arch-mips/include/machine/cdefs.h
+       ndk/platforms/android-9/arch-mips/include/machine/endian.h
+       ndk/platforms/android-9/arch-mips/include/machine/exec.h
+       ndk/platforms/android-9/arch-mips/include/machine/regnum.h
 Copyright: 1996-2004, Per Fogelstrom
            1995-2004, Opsycon AB
 License: BSD-2-clause
@@ -151,6 +361,9 @@ License: public-domain
 
 Files: ndk/platforms/android-21/arch-x86_64/include/machine/endian.h
        ndk/platforms/android-21/arch-x86/include/machine/endian.h
+       ndk/platforms/android-21/include/sys/endian.h
+       ndk/platforms/android-3/include/sys/endian.h
+       ndk/platforms/android-9/arch-x86/include/machine/endian.h
 Copyright: 1997, Niklas Hallqvist
 License: BSD-2-clause
 
@@ -170,6 +383,7 @@ License: BSD-2-clause
 
 Files: ndk/platforms/android-21/include/fenv.h
        ndk/platforms/android-21/include/getopt.h
+       ndk/platforms/android-21/include/nsswitch.h
 Copyright: 2010, The NetBSD Foundation, Inc.
 License: BSD-2-clause
 
@@ -181,6 +395,21 @@ License: ISC
 Files: ndk/platforms/android-21/include/net/if_ieee1394.h
 Copyright: 2000, The NetBSD Foundation, Inc.
 License: BSD-4-clause
+
+Files: ndk/platforms/android-21/include/stdatomic.h
+Copyright: 2011, Ed Schouten <ed@FreeBSD.org>
+           2011, David Chisnall <theraven@FreeBSD.org>
+License: BSD-2-clause
+
+Files: ndk/platforms/android-21/include/sys/limits.h
+       ndk/platforms/android-3/include/sys/limits.h
+Copyright: 2002, Marc Espie
+License: BSD-2-clause
+
+Files: ndk/platforms/common/src/crtbrand.c
+Copyright: 2000, David E. O'Brien
+           2000, John D. Polstra
+License: BSD-2-clause
 
 License: Apache-2.0
  Licensed under the Apache License, Version 2.0 (the "License");
