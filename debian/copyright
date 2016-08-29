@@ -3,21 +3,13 @@ Upstream-Contact: https://source.android.com/compatibility/contact-us.html
 Upstream-Name: Platform engineering tools, sample code
 Source: https://android.googlesource.com/platform/development
 Files-Excluded: *.a
-                *.ai
+                *.apk
                 *.dll
-                *.eps
                 *.exe
-                *.gles
                 *.jar
-                *.mp3
-                *.mp4
                 *.o
-                *.ogg
-                *.raw
                 *.so
-                *.ts
                 *.zip
-                host/windows
                 perftests
                 samples
 
