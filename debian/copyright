@@ -279,7 +279,6 @@ Files: ndk/platforms/android-14/include/OMXAL/OpenMAXAL_Platform.h
        ndk/platforms/android-14/include/OMXAL/OpenMAXAL.h
        ndk/platforms/android-14/include/SLES/OpenSLES_Platform.h
        ndk/platforms/android-14/include/SLES/OpenSLES.h
-       ndk/platforms/android-18/samples/gles3jni/jni/gl3stub.h
        ndk/platforms/android-21/include/SLES/OpenSLES_Platform.h
        ndk/platforms/android-21/include/SLES/OpenSLES.h
        ndk/sources/android/ndk_helper/gl3stub.h
@@ -507,10 +506,6 @@ Files: ndk/platforms/android-21/include/time64.h
        ndk/platforms/android-3/include/time64.h
 Copyright: 2007-2008, Michael G Schwern
 License: MIT
-
-Files: ndk/platforms/android-4/samples/san-angeles/jni/*
-Copyright: 2004-2005, Jetro Lauha
-License: LGPL-2.1+ or BSD-3-clasue
 
 Files: ndk/platforms/android-3/include/sys/exec_elf.h
 Copyright: 1995-1996, Erik Theisen
