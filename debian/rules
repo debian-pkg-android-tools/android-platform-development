@@ -19,5 +19,5 @@ override_dh_auto_clean:
 	make clean -f debian/etc1tool.mk
 	$(RM) debian/*.1
 
-get-orig-source: $(UPSTREAM_TAG).tar.gz
+get-orig-source:
 	uscan --download-current-version --force-download
