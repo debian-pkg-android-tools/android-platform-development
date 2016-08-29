@@ -3,12 +3,14 @@ android-platform-development (6.0.1+r55-1) UNRELEASED; urgency=medium
   [ Kai-Chung Yan ]
   * d/copyright: Improvements
   * Search for Android libraries in multiarch path (Closes: #835695)
+  * Define NDEBUG for C++ binaries
+  * Update Standards-Version => 3.9.8 (no changes)
 
   [ Chirayu Desai ]
   * New upstream release (Identical to 6.0.1+r16)
   * debian: Add watch file for usage with uscan
 
- -- Chirayu Desai <chirayudesai1@gmail.com>  Sat, 23 Jul 2016 00:40:13 +0530
+ -- Kai-Chung Yan <seamlikok@gmail.com>  Mon, 29 Aug 2016 20:16:39 +0800
 
 android-platform-development (6.0.1+r16-1) unstable; urgency=medium
 
