@@ -1,4 +1,4 @@
-Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0
 Upstream-Contact: https://source.android.com/compatibility/contact-us.html
 Upstream-Name: Platform engineering tools, sample code
 Source: https://android.googlesource.com/platform/development
@@ -270,6 +270,8 @@ License: BSD-2-clause
 Files: ndk/platforms/android-13/include/math.h
        ndk/platforms/android-18/include/math.h
        ndk/platforms/android-21/include/math.h
+       ndk/platforms/android-3/include/math.h
+       ndk/platforms/android-9/include/math.h
 Copyright: 1993, Sun Microsystems, Inc.
 License: Sun
 
@@ -278,6 +280,13 @@ Files: ndk/platforms/android-14/include/OMXAL/OpenMAXAL_Platform.h
        ndk/platforms/android-14/include/SLES/OpenSLES_Platform.h
        ndk/platforms/android-14/include/SLES/OpenSLES.h
        ndk/platforms/android-18/samples/gles3jni/jni/gl3stub.h
+       ndk/platforms/android-21/include/SLES/OpenSLES_Platform.h
+       ndk/platforms/android-21/include/SLES/OpenSLES.h
+       ndk/sources/android/ndk_helper/gl3stub.h
+       ndk/platforms/android-4/include/KHR/khrplatform.h
+       ndk/platforms/android-9/include/EGL/egl.h
+       ndk/platforms/android-9/include/SLES/OpenSLES_Platform.h
+       ndk/platforms/android-9/include/SLES/OpenSLES.h
 Copyright: 2007-2010, The Khronos Group Inc.
 License: MIT
 
@@ -320,12 +329,64 @@ Files: ndk/platforms/android-21/arch-arm/include/machine/asm.h
        ndk/platforms/android-21/include/net/ethertypes.h
        ndk/platforms/android-21/include/net/if_ether.h
        ndk/platforms/android-21/include/net/if_types.h
-Copyright: 1990, The Regents of the University of California
+       ndk/platforms/android-21/include/netinet/in_systm.h
+       ndk/platforms/android-21/include/netinet/ip_icmp.h
+       ndk/platforms/android-21/include/netinet/ip.h
+       ndk/platforms/android-21/include/paths.h
+       ndk/platforms/android-21/include/setjmp.h
+       ndk/platforms/android-21/include/sgtty.h
+       ndk/platforms/android-21/include/stdio.h
+       ndk/platforms/android-21/include/sys/cdefs.h
+       ndk/platforms/android-21/include/sys/ioctl_compat.h
+       ndk/platforms/android-21/include/sys/queue.h
+       ndk/platforms/android-21/include/sys/ttydefaults.h
+       ndk/platforms/android-8/include/err.h
+       ndk/platforms/android-8/include/fts.h
+       ndk/platforms/android-8/include/stdio.h
+       ndk/platforms/android-3/arch-arm/include/machine/_types.h
+       ndk/platforms/android-3/arch-arm/include/machine/asm.h
+       ndk/platforms/android-3/arch-arm/include/machine/limits.h
+       ndk/platforms/android-3/arch-arm/include/sys/_types.h
+       ndk/platforms/android-3/include/assert.h
+       ndk/platforms/android-3/include/ctype.h
+       ndk/platforms/android-3/include/grp.h
+       ndk/platforms/android-3/include/limits.h
+       ndk/platforms/android-3/include/net/ethertypes.h
+       ndk/platforms/android-3/include/net/if_ether.h
+       ndk/platforms/android-3/include/net/if_types.h
+       ndk/platforms/android-3/include/netinet/in_systm.h
+       ndk/platforms/android-3/include/netinet/ip_icmp.h
+       ndk/platforms/android-3/include/netinet/ip.h
+       ndk/platforms/android-3/include/paths.h
+       ndk/platforms/android-3/include/pwd.h
+       ndk/platforms/android-3/include/setjmp.h
+       ndk/platforms/android-3/include/sgtty.h
+       ndk/platforms/android-3/include/stdio.h
+       ndk/platforms/android-3/include/sys/cdefs.h
+       ndk/platforms/android-3/include/sys/ioctl_compat.h
+       ndk/platforms/android-3/include/sys/queue.h
+       ndk/platforms/android-9/arch-mips/include/machine/_types.h
+       ndk/platforms/android-9/arch-mips/include/machine/ieee.h
+       ndk/platforms/android-9/arch-mips/include/machine/limits.h
+       ndk/platforms/android-9/arch-mips/include/machine/regdef.h
+       ndk/platforms/android-9/arch-mips/include/machine/signal.h
+       ndk/platforms/android-9/arch-mips/include/sys/_types.h
+       ndk/platforms/android-9/arch-mips/include/sys/ioctl_compat.h
+       ndk/platforms/android-9/arch-x86/include/machine/_types.h
+       ndk/platforms/android-9/arch-x86/include/machine/asm.h
+       ndk/platforms/android-9/arch-x86/include/machine/ieee.h
+       ndk/platforms/android-9/arch-x86/include/machine/limits.h
+       ndk/platforms/android-9/arch-x86/include/sys/_types.h
+       ndk/platforms/android-9/include/arpa/telnet.h
+       ndk/platforms/android-9/include/sys/cdefs.h
+Copyright: 1982-1993, The Regents of the University of California
 License: BSD-3-clause
 
 Files: ndk/platforms/android-21/arch-arm/include/machine/exec.h
        ndk/platforms/android-21/arch-arm64/include/machine/exec.h
        ndk/platforms/android-21/arch-x86/include/machine/exec.h
+       ndk/platforms/android-3/arch-arm/include/machine/exec.h
+       ndk/platforms/android-9/arch-x86/include/machine/exec.h
 Copyright: 1993, Christopher G. Demetriou
 License: BSD-3-clause
 
@@ -361,13 +422,16 @@ License: BSD-2-clause
 
 Files: ndk/platforms/android-21/include/arpa/nameser_compat.h
        ndk/platforms/android-21/include/machine/ieee.h
+       ndk/platforms/android-3/arch-arm/include/machine/ieee.h
+       ndk/platforms/android-3/header-patches/include/machine/ieee.h
+       ndk/platforms/android-3/include/netdb.h
 Copyright: 1983-1993, The Regents of the University of California
 License: BSD-4-clause
 
 Files: ndk/platforms/android-21/include/arpa/nameser.h
 Copyright: 1996-2009, Internet Systems Consortium, Inc.
            1983-1993, The Regents of the University of California
-License: ISC and BSD-3-clause
+License: MIT and BSD-3-clause
 
 Files: ndk/platforms/android-21/include/complex.h
 Copyright: 2001-2011 The FreeBSD Project
@@ -381,10 +445,17 @@ License: BSD-2-clause
 
 Files: ndk/platforms/android-21/include/ftw.h
        ndk/platforms/android-21/include/inttypes.h
+       ndk/platforms/android-3/include/inttypes.h
 Copyright: 1997-2005, Todd C. Miller <Todd.Miller@courtesan.com>
-License: ISC
+License: MIT
 
 Files: ndk/platforms/android-21/include/net/if_ieee1394.h
+       ndk/platforms/android-21/include/strings.h
+       ndk/platforms/android-3/include/getopt.h
+       ndk/platforms/android-3/include/net/if_ieee1394.h
+       ndk/platforms/android-3/include/nsswitch.h
+       ndk/platforms/android-3/include/strings.h
+       ndk/platforms/android-9/include/strings.h
 Copyright: 2000, The NetBSD Foundation, Inc.
 License: BSD-4-clause
 
@@ -402,6 +473,57 @@ Files: ndk/platforms/common/src/crtbrand.c
 Copyright: 2000, David E. O'Brien
            2000, John D. Polstra
 License: BSD-2-clause
+
+Files: ndk/platforms/android-21/include/netdb.h
+Copyright: 1980-1993, The Regents of the University of California
+           1993, Digital Equipment Corporation
+License: BSD-4-clause and MIT
+
+Files: ndk/platforms/android-21/include/netinet/icmp6.h
+       ndk/platforms/android-21/include/netinet/ip6.h
+       ndk/platforms/android-3/include/netinet/icmp6.h
+       ndk/platforms/android-3/include/netinet/ip6.h
+Copyright: 1995-1998, WIDE Project
+           1982-1993, The Regents of the University of California
+License: BSD-3-clause
+
+Files: ndk/platforms/android-21/include/pwd.h
+Copyright: 1989-1993, The Regents of the University of California
+           1995, Jason Downs
+License: BSD-3-clause
+
+Files: ndk/platforms/android-21/include/regex.h
+       ndk/platforms/android-8/include/regex.h
+Copyright: 1992, Henry Spencer
+           1992-1993, The Regents of the University of California
+License: BSD-3-clause
+
+Files: ndk/platforms/android-21/include/sys/cdefs_elf.h
+       ndk/platforms/android-3/include/sys/cdefs_elf.h
+Copyright: 1995-1996, Carnegie-Mellon University
+License: MIT
+
+Files: ndk/platforms/android-21/include/time64.h
+       ndk/platforms/android-3/include/time64.h
+Copyright: 2007-2008, Michael G Schwern
+License: MIT
+
+Files: ndk/platforms/android-4/samples/san-angeles/jni/*
+Copyright: 2004-2005, Jetro Lauha
+License: LGPL-2.1+ or BSD-3-clasue
+
+Files: ndk/platforms/android-3/include/sys/exec_elf.h
+Copyright: 1995-1996, Erik Theisen
+License: BSD-3-clause
+
+Files: ndk/platforms/android-3/include/zconf.h
+       ndk/platforms/android-3/include/zlib.h
+Copyright: 1995-2005, Jean-loup Gailly
+License: Zlib
+
+Files: ndk/platforms/android-9/arch-x86/include/machine/kernel.h
+Copyright: 2006-2008, The Android Open Source Project
+License: BSD-3-clause
 
 License: Apache-2.0
  Licensed under the Apache License, Version 2.0 (the "License");
@@ -505,21 +627,42 @@ License: BSD-4-clause
  ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
  POSSIBILITY OF SUCH DAMAGE.
 
-License: ISC
- Permission to use, copy, modify, and/or distribute this software for any
- purpose with or without fee is hereby granted, provided that the above
- copyright notice and this permission notice appear in all copies.
- .
- THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH
- REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND
- FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT,
- INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM
- LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR
- OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
- PERFORMANCE OF THIS SOFTWARE.
-
 License: Sun
  Developed at SunPro, a Sun Microsystems, Inc. business.
  .
  Permission to use, copy, modify, and distribute this software is freely
  granted, provided that this notice is preserved.
+
+License: LGPL-2.1
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Lesser General Public
+ License as published by the Free Software Foundation; either
+ version 2.1 of the License, or (at your option) any later version.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Lesser General Public License for more details.
+ .
+ You should have received a copy of the GNU Lesser General Public
+ License along with this library; if not, write to the Free Software
+ Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+
+License: Zlib
+ This software is provided 'as-is', without any express or implied warranty.
+ In no event will the authors be held liable for any damages arising from the
+ use of this software.
+ .
+ Permission is granted to anyone to use this software for any purpose, including
+ commercial applications, and to alter it and redistribute it freely, subject to
+ the following restrictions:
+ .
+   1. The origin of this software must not be misrepresented; you must not claim
+      that you wrote the original software. If you use this software in a
+      product, an acknowledgment in the product documentation would be
+      appreciated but is not required.
+ .
+   2. Altered source versions must be plainly marked as such, and must not be
+      misrepresented as being the original software.
+ .
+   3. This notice may not be removed or altered from any source distribution.
