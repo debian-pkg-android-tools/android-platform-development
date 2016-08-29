@@ -4,7 +4,7 @@ android-platform-development (6.0.1+r55-1) UNRELEASED; urgency=medium
   * d/copyright: Improvements
 
   [ Chirayu Desai ]
-  * New upstream release.
+  * New upstream release (Identical to 6.0.1+r16)
   * debian: Add watch file for usage with uscan
 
  -- Chirayu Desai <chirayudesai1@gmail.com>  Sat, 23 Jul 2016 00:40:13 +0530
