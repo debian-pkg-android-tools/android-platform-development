@@ -5,7 +5,7 @@
 # affected shared library rather than every executable that uses that
 # library.
 
-binary-or-shlib-defines-rpath usr/lib/android-sdk/platform-tools/etc1tool /usr/lib/android
+binary-or-shlib-defines-rpath
 
 
 # the line is too long because its a long URL, wrapping it will make
