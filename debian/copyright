@@ -416,7 +416,7 @@ License: Apache-2.0
  On Debian systems, the full text of the Apache License, Version 2.0
  can be found in the file `/usr/share/common-licenses/Apache-2.0'.
 
-License: BSD-2-clause:
+License: BSD-2-clause
  Redistribution and use in source and binary forms, with or without
  modification, are permitted provided that the following conditions
  are met:
