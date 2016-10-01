@@ -31,23 +31,13 @@ Files: ndk/platforms/android-12/include/*
        ndk/platforms/android-16/include/stdlib.h
        ndk/platforms/android-19/include/sys/*
        ndk/platforms/android-21/arch-arm/include/machine/cpu-features.h
-       ndk/platforms/android-21/arch-arm/include/machine/endian.h
        ndk/platforms/android-21/arch-arm/include/machine/setjmp.h
        ndk/platforms/android-21/arch-arm64/include/machine/elf_machdep.h
-       ndk/platforms/android-21/arch-arm64/include/machine/endian.h
        ndk/platforms/android-21/arch-arm64/include/machine/setjmp.h
        ndk/platforms/android-21/arch-arm64/src/*
-       ndk/platforms/android-21/arch-mips/include/machine/endian.h
        ndk/platforms/android-21/arch-mips/include/sgidefs.h
        ndk/platforms/android-21/arch-mips64/include/sgidefs.h
        ndk/platforms/android-21/arch-mips64/src/*
-       ndk/platforms/android-21/arch-p/include/machine/endian.h
-       ndk/platforms/android-21/arch-p/include/machine/setjmp.h
-       ndk/platforms/android-21/arch-p/include/sys/cachectl.h
-       ndk/platforms/android-21/arch-p/include/sys/epoll.h
-       ndk/platforms/android-21/arch-p/include/sys/socket.h
-       ndk/platforms/android-21/arch-p/include/sys/stat.h
-       ndk/platforms/android-21/arch-p/include/sys/vfs.h
        ndk/platforms/android-21/include/alloca.h
        ndk/platforms/android-21/include/android/api-level.h
        ndk/platforms/android-21/include/arpa/inet.h
@@ -146,13 +136,9 @@ Files: ndk/platforms/android-12/include/*
        ndk/platforms/android-21/include/wctype.h
        ndk/platforms/android-21/include/xlocale.h
        ndk/platforms/android-3/arch-arm/include/machine/cpu-features.h
-       ndk/platforms/android-3/arch-arm/include/machine/endian.h
        ndk/platforms/android-3/arch-arm/include/machine/kernel.h
        ndk/platforms/android-3/arch-arm/include/machine/setjmp.h
        ndk/platforms/android-3/arch-arm/src/*
-       ndk/platforms/android-3/header-patches/include/machine/endian.h
-       ndk/platforms/android-3/header-patches/include/machine/setjmp.h
-       ndk/platforms/android-3/header-patches/include/sys/*
        ndk/platforms/android-3/include/alloca.h
        ndk/platforms/android-3/include/arpa/inet.h
        ndk/platforms/android-3/include/arpa/nameser.h
@@ -286,6 +272,7 @@ Files: ndk/platforms/android-14/include/OMXAL/OpenMAXAL_Platform.h
        ndk/platforms/android-14/include/SLES/OpenSLES.h
        ndk/platforms/android-21/include/SLES/OpenSLES_Platform.h
        ndk/platforms/android-21/include/SLES/OpenSLES.h
+       ndk/platforms/android-24/include/*
        ndk/sources/android/ndk_helper/gl3stub.h
        ndk/platforms/android-4/include/KHR/khrplatform.h
        ndk/platforms/android-9/include/EGL/egl.h
@@ -307,7 +294,6 @@ Files: ndk/platforms/android-21/arch-arm/include/machine/fenv.h
        ndk/platforms/android-21/arch-x86_64/include/machine/fenv.h
        ndk/platforms/android-21/arch-x86/include/machine/fenv.h
        ndk/platforms/android-3/arch-arm/include/fenv.h
-       ndk/platforms/android-3/header-patches/include/fenv.h
        ndk/platforms/android-9/arch-mips/include/fenv.h
        ndk/platforms/android-9/arch-x86/include/fenv.h
 Copyright: 2004-2005, David Schultz <das@FreeBSD.ORG>
@@ -319,7 +305,6 @@ Files: ndk/platforms/android-21/arch-arm/include/machine/asm.h
        ndk/platforms/android-21/arch-mips/include/machine/signal.h
        ndk/platforms/android-21/arch-mips64/include/machine/regdef.h
        ndk/platforms/android-21/arch-mips64/include/machine/signal.h
-       ndk/platforms/android-21/arch-p/include/sys/ioctl_compat.h
        ndk/platforms/android-21/arch-x86_64/include/machine/asm.h
        ndk/platforms/android-21/arch-x86/include/machine/asm.h
        ndk/platforms/android-21/include/ar.h
@@ -344,9 +329,6 @@ Files: ndk/platforms/android-21/arch-arm/include/machine/asm.h
        ndk/platforms/android-21/include/sys/ioctl_compat.h
        ndk/platforms/android-21/include/sys/queue.h
        ndk/platforms/android-21/include/sys/ttydefaults.h
-       ndk/platforms/android-8/include/err.h
-       ndk/platforms/android-8/include/fts.h
-       ndk/platforms/android-8/include/stdio.h
        ndk/platforms/android-3/arch-arm/include/machine/_types.h
        ndk/platforms/android-3/arch-arm/include/machine/asm.h
        ndk/platforms/android-3/arch-arm/include/machine/limits.h
@@ -369,6 +351,9 @@ Files: ndk/platforms/android-21/arch-arm/include/machine/asm.h
        ndk/platforms/android-3/include/sys/cdefs.h
        ndk/platforms/android-3/include/sys/ioctl_compat.h
        ndk/platforms/android-3/include/sys/queue.h
+       ndk/platforms/android-8/include/err.h
+       ndk/platforms/android-8/include/fts.h
+       ndk/platforms/android-8/include/stdio.h
        ndk/platforms/android-9/arch-mips/include/machine/_types.h
        ndk/platforms/android-9/arch-mips/include/machine/ieee.h
        ndk/platforms/android-9/arch-mips/include/machine/limits.h
@@ -382,7 +367,6 @@ Files: ndk/platforms/android-21/arch-arm/include/machine/asm.h
        ndk/platforms/android-9/arch-x86/include/machine/limits.h
        ndk/platforms/android-9/arch-x86/include/sys/_types.h
        ndk/platforms/android-9/include/arpa/telnet.h
-       ndk/platforms/android-9/include/sys/cdefs.h
 Copyright: 1982-1993, The Regents of the University of California
 License: BSD-3-clause
 
@@ -395,16 +379,13 @@ Copyright: 1993, Christopher G. Demetriou
 License: BSD-3-clause
 
 Files: ndk/platforms/android-21/arch-mips/include/machine/asm.h
-       ndk/platforms/android-21/arch-mips/include/machine/endian.h
        ndk/platforms/android-21/arch-mips/include/machine/exec.h
        ndk/platforms/android-21/arch-mips/include/machine/regnum.h
        ndk/platforms/android-21/arch-mips64/include/machine/asm.h
-       ndk/platforms/android-21/arch-mips64/include/machine/endian.h
        ndk/platforms/android-21/arch-mips64/include/machine/exec.h
        ndk/platforms/android-21/arch-mips64/include/machine/regnum.h
        ndk/platforms/android-9/arch-mips/include/machine/asm.h
        ndk/platforms/android-9/arch-mips/include/machine/cdefs.h
-       ndk/platforms/android-9/arch-mips/include/machine/endian.h
        ndk/platforms/android-9/arch-mips/include/machine/exec.h
        ndk/platforms/android-9/arch-mips/include/machine/regnum.h
 Copyright: 1996-2004, Per Fogelstrom
@@ -416,18 +397,14 @@ Files: ndk/platforms/android-21/arch-mips/include/machine/setjmp.h
 Copyright: None
 License: public-domain
 
-Files: ndk/platforms/android-21/arch-x86_64/include/machine/endian.h
-       ndk/platforms/android-21/arch-x86/include/machine/endian.h
-       ndk/platforms/android-21/include/sys/endian.h
+Files: ndk/platforms/android-21/include/sys/endian.h
        ndk/platforms/android-3/include/sys/endian.h
-       ndk/platforms/android-9/arch-x86/include/machine/endian.h
 Copyright: 1997, Niklas Hallqvist
 License: BSD-2-clause
 
 Files: ndk/platforms/android-21/include/arpa/nameser_compat.h
        ndk/platforms/android-21/include/machine/ieee.h
        ndk/platforms/android-3/arch-arm/include/machine/ieee.h
-       ndk/platforms/android-3/header-patches/include/machine/ieee.h
        ndk/platforms/android-3/include/netdb.h
 Copyright: 1983-1993, The Regents of the University of California
 License: BSD-4-clause
@@ -524,6 +501,10 @@ License: Zlib
 Files: ndk/platforms/android-9/arch-x86/include/machine/kernel.h
 Copyright: 2006-2008, The Android Open Source Project
 License: BSD-3-clause
+
+Files: tools/checkstyle/gitlint/*.py
+Copyright: 2013-2014, Sebastian Kreft
+License: Apache-2.0
 
 License: Apache-2.0
  Licensed under the Apache License, Version 2.0 (the "License");
