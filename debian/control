@@ -4,17 +4,17 @@ Priority: optional
 Maintainer: Android tools Maintainer <android-tools-devel@lists.alioth.debian.org>
 Uploaders: Kai-Chung Yan <seamlikok@gmail.com>,
            Chirayu Desai <chirayudesai1@gmail.com>
-Build-Depends: android-libetc1-dev (>= 1:7.0.0+r1) [amd64 i386],
+Build-Depends: android-libetc1-dev (>= 1:7.0.0+r1),
                debhelper (>=9),
-               libpng-dev (>= 1.6) [amd64 i386],
-               pandoc [amd64 i386]
+               libpng-dev (>= 1.6),
+               pandoc
 Standards-Version: 3.9.8
 Homepage: https://android.googlesource.com/platform/development
 Vcs-Git: https://anonscm.debian.org/git/android-tools/android-platform-development.git
 Vcs-Browser: https://anonscm.debian.org/cgit/android-tools/android-platform-development.git
 
 Package: etc1tool
-Architecture: amd64 i386
+Architecture: amd64 i386 armel armhf arm64 mips mipsel mips64el
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: ETC1 conversion tool
  etc1tool is a command line utility that lets you encode PNG images to
