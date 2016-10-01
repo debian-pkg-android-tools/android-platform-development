@@ -1,6 +1,10 @@
 android-platform-development (7.0.0+r1-1) UNRELEASED; urgency=medium
 
   * New upstream release
+  * New patch: typos.patch
+  * Update to debhelper 10
+  * Enable builds for ARM & MIPS
+  * d/copyright: Exclude "prebuilt"
 
  -- Kai-Chung Yan <seamlikok@gmail.com>  Sat, 01 Oct 2016 14:18:02 +0800
 
