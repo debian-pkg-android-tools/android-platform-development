@@ -15,6 +15,7 @@ Files-Excluded: *.a
                 host/windows/usb/winusb/AdbWinUsbApi.rc
                 host/windows/usb/winusb/Resource.h
                 perftests
+                prebuilt
                 samples
 
 Files: *
