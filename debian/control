@@ -5,7 +5,7 @@ Maintainer: Android tools Maintainer <android-tools-devel@lists.alioth.debian.or
 Uploaders: Kai-Chung Yan <seamlikok@gmail.com>,
            Chirayu Desai <chirayudesai1@gmail.com>
 Build-Depends: android-libetc1-dev (>= 1:7.0.0+r1),
-               debhelper (>=9),
+               debhelper (>= 10),
                libpng-dev (>= 1.6),
                pandoc
 Standards-Version: 3.9.8
