@@ -1,6 +1,6 @@
-% ETC1TOOL(1) android-platform-development  | etc1tool Manual
+% ETC1TOOL(1) | 7.0.0_r1 (24.0.0)
 % The Android Open Source Project
-% 6.0.1_r16
+% 22 August 2016
 
 # NAME
 
