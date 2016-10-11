@@ -1,4 +1,4 @@
-android-platform-development (7.0.0+r1-1) UNRELEASED; urgency=medium
+android-platform-development (7.0.0+r1-1) experimental; urgency=medium
 
   * New upstream release
   * New patch: typos.patch
