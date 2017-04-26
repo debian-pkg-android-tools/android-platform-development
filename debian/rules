@@ -1,5 +1,7 @@
 #!/usr/bin/make -f
 
+include /usr/share/dpkg/pkg-info.mk
+
 export DEB_CXXFLAGS_MAINT_APPEND = -fPIC
 export DEB_CPPFLAGS_MAINT_APPEND = -DNDEBUG -I/usr/include/android
 export DEB_LDFLAGS_MAINT_APPEND = -fPIC
@@ -16,5 +18,11 @@ override_dh_auto_clean:
 	make clean -f debian/etc1tool.mk
 	$(RM) debian/*.1
 
-get-orig-source:
-	uscan --download-current-version --force-download
+get-orig-source: $(subst android-platform-,,$(DEB_SOURCE)).tar.gz
+	mkdir -p $(DEB_SOURCE)_$(DEB_VERSION_UPSTREAM)
+	tar -f $< -x --gzip --directory $(DEB_SOURCE)_$(DEB_VERSION_UPSTREAM)
+	(cd $(DEB_SOURCE)_$(DEB_VERSION_UPSTREAM); tar --create --xz -f ../../$(DEB_SOURCE)_$(DEB_VERSION_UPSTREAM).orig.tar.xz --exclude-from ../debian/orig.excludes --mtime=20121221 * .gitignore)
+	$(RM) -r $(DEB_SOURCE)_$(DEB_VERSION_UPSTREAM)
+
+$(subst android-platform-,,$(DEB_SOURCE)).tar.gz:
+	wget https://android.googlesource.com/platform/$(subst -,/,$(subst android-platform-,,$(DEB_SOURCE)))/+archive/android-$(subst +,_,$(DEB_VERSION_UPSTREAM)).tar.gz -O $@

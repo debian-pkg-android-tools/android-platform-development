@@ -1,0 +1,15 @@
+*.a
+*.apk
+*.dll
+*.exe
+*.jar
+*.o
+*.so
+*.zip
+host/windows/usb/api/AdbWinApi.rc
+host/windows/usb/api/Resource.h
+host/windows/usb/winusb/AdbWinUsbApi.rc
+host/windows/usb/winusb/Resource.h
+perftests
+prebuilt
+samples
