@@ -1,3 +1,9 @@
+android-platform-development (7.0.0+r33-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Hans-Christoph Steiner <hans@eds.org>  Mon, 24 Apr 2017 23:57:00 +0200
+
 android-platform-development (7.0.0+r1-2) unstable; urgency=medium
 
   * Upload to unstable
